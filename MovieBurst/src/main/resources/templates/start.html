@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Time</title>
+    <link rel="stylesheet" href="start.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1 class="title">MOVIE BURST</h1>
+    <img src="/images/vijay-tamil-actors-hd-white-91midrtanfcekc5l.jpg" alt="Decorative Image" class="bottom-left-image">
+    <img src="/images/ksbsli.png" alt="Decorative Image" class="bottom-leftt-image">
+    <img src="/images/reel.png" alt="Decorative Image" class="bottom-leftttt-image">
+    <img src="/images/mari.png" alt="Decorative Image" class="bottom-lefttttt-image">
+    <img src="/images/thala.png" alt="Decorative Image" class="bottom-lefttt-image">
+    
+    <div class="login-container">
+        <h2>MOVIE TIME!!</h2>
+        <form th:action="@{/search}" method="get">
+            <div class="input-group">
+              <input type="text" name="mood" placeholder="Type your mood, movie name" required>
+
+            </div>
+            <button type="submit" class="btn btn-primary btn-sm">SEARCH MOVIES</button>
+        </form>
+    </div>
+</body>
+</html>
